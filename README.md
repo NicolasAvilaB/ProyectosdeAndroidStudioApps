@@ -1,3 +1,6 @@
-# ProyectosdeAndroidStudioApps
+# Proyectos de Android Studio Apps
 
-Proyectos personales, implementados en la industria, y de tesis
+
+Proyectos creados y practicados desde 2017, usando api rest, request volley, android jetpack, unit test 
+
+Implementación en proyectos de Tesis IOT, en la industria etc, uso de kotlin
