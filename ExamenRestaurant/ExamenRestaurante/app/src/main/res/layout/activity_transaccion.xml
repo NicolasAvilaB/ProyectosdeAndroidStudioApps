@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.rest.software.examenrestaurante.transaccion"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/mesa"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese Mesa..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/cambiarmesa"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="-46dp"
+        android:enabled="false"
+        android:text="Cambiar" />
+
+    <TextView
+        android:id="@+id/medirestado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/crearpedido"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-1dp"
+        android:enabled="false"
+        android:text="Crear Pedido" />
+
+    <Button
+        android:id="@+id/cancelarpedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:enabled="false"
+        android:text="Cancelar Pedido" />
+
+    <Button
+        android:id="@+id/modificar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="5dp"
+        android:enabled="false"
+        android:text="Modificar Pedidos" />
+
+    <Button
+        android:id="@+id/pagar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="5dp"
+        android:enabled="false"
+        android:text="Pagar Pedidos" />
+
+    <Button
+        android:id="@+id/actualizar"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="5dp"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:text="Volver" />
+
+</LinearLayout>

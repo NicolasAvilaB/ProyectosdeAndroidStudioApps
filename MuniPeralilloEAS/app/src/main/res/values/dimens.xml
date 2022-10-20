@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Pantalla Principal - Valor Reloj-->
+    <!--Tamaño Fondo-->
+    <dimen name="tamano_fondor">330dp</dimen>
+    <!--Texto Bienvenido-->
+    <dimen name="texto_bienvenido_espladoarribar">14dp</dimen>
+    <dimen name="tamaño_texto_bienvenidor">24sp</dimen>
+    <dimen name="texto_bienvenido_elevacionr">6dp</dimen>
+    <!--Subtexto La comuna gana-->
+    <dimen name="texto_comuna_espladoarribar">44dp</dimen>
+    <dimen name="tamaño_texto_comunar">14sp</dimen>
+    <dimen name="texto_comuna_elevacionr">6dp</dimen>
+    <!--Boton Inicio Sesion -->
+    <dimen name="boton_iniciosesion_espacioarribar">48dp</dimen>
+    <!--Linearlayout Registro-->
+    <dimen name="linearlayout_registro_paddingtopbottomr">16dp</dimen>
+    <dimen name="mensaje_registror">14sp</dimen>
+    <dimen name="espacio_abajo">4dp</dimen>
+
+    <!-- Pantalla Principal - Valor 480dp-->
+    <!--Tamaño Fondo-->
+    <dimen name="tamano_fondo4">1400dp</dimen>
+    <!--Texto Bienvenido-->
+    <dimen name="texto_bienvenido_espladoizquierdo4">48dp</dimen>
+    <dimen name="texto_bienvenido_espladoarriba4">40dp</dimen>
+    <dimen name="tamaño_texto_bienvenido4">48sp</dimen>
+    <dimen name="texto_bienvenido_elevacion4">6dp</dimen>
+    <!-- Subtexto La comuna gana-->
+    <dimen name="texto_comuna_espladoizquierdo4">48dp</dimen>
+    <dimen name="texto_comuna_espladoarriba4">100dp</dimen>
+    <dimen name="tamaño_texto_comuna4">24sp</dimen>
+    <dimen name="texto_comuna_elevacion4">8dp</dimen>
+    <!-- Boton Inicio Sesión -->
+    <dimen name="boton_iniciosesion_espacioarriba4">152dp</dimen>
+    <!-- Linearlayout Registro-->
+    <dimen name="linearlayout_registro_paddingtopbottom4">8dp</dimen>
+    <dimen name="espacio_lado_izquierdo_registro4">5dp</dimen>
+    <dimen name="mensaje_registro4">18sp</dimen>
+
+    <!--Pantalla Principal - Valor Normal-->
+    <!--Tamaño Fondo-->
+    <dimen name="tamano_fondo">1180dp</dimen>
+    <!--Texto Bienvenido-->
+    <dimen name="texto_bienvenido_espladoizquierdo">48dp</dimen>
+    <dimen name="texto_bienvenido_espladoarriba">40dp</dimen>
+    <dimen name="tamaño_texto_bienvenido">44sp</dimen>
+    <dimen name="texto_bienvenido_elevacion">6dp</dimen>
+    <!--Subtexto La comuna gana-->
+    <dimen name="texto_comuna_espladoizquierdo">48dp</dimen>
+    <dimen name="texto_comuna_espladoarriba">100dp</dimen>
+    <dimen name="tamaño_texto_comuna">20sp</dimen>
+    <dimen name="texto_comuna_elevacion">6dp</dimen>
+    <!--Boton Inicio Sesion -->
+    <dimen name="boton_iniciosesion_espacioarriba">152dp</dimen>
+    <!--Linearlayout Registro-->
+    <dimen name="linearlayout_registro_paddingtopbottom">16dp</dimen>
+    <dimen name="mensaje_registro">15sp</dimen>
+
+    <!-- Pantalla Principal - Valor 600dp-->
+    <!--Tamaño Fondo-->
+    <dimen name="tamano_fondo6">1800dp</dimen>
+    <!--Texto Bienvenido-->
+    <dimen name="texto_bienvenido_espladoizquierdo6">74dp</dimen>
+    <dimen name="texto_bienvenido_espladoarriba6">60dp</dimen>
+    <dimen name="tamaño_texto_bienvenido6">68sp</dimen>
+    <dimen name="texto_bienvenido_elevacion6">6dp</dimen>
+    <!-- Subtexto La comuna gana-->
+    <dimen name="texto_comuna_espladoizquierdo6">74dp</dimen>
+    <dimen name="texto_comuna_espladoarriba6">155dp</dimen>
+    <dimen name="tamaño_texto_comuna6">32sp</dimen>
+    <dimen name="texto_comuna_elevacion6">6dp</dimen>
+    <!-- Boton Inicio Sesión -->
+    <dimen name="boton_iniciosesion_espacioarriba6">242dp</dimen>
+    <!-- Linearlayout Registro-->
+    <dimen name="linearlayout_registro_paddingtopbottom6">8dp</dimen>
+    <dimen name="espacio_lado_izquierdo_registro6">5dp</dimen>
+    <dimen name="mensaje_registro6">24sp</dimen>
+
+    <!-- Pantalla Principal - Valor 720dp-->
+    <!--Tamaño Fondo-->
+    <dimen name="tamano_fondo7">1990dp</dimen>
+    <!--Texto Bienvenido-->
+    <dimen name="texto_bienvenido_espladoizquierdo7">92dp</dimen>
+    <dimen name="texto_bienvenido_espladoarriba7">74dp</dimen>
+    <dimen name="tamaño_texto_bienvenido7">88sp</dimen>
+    <dimen name="texto_bienvenido_elevacion7">6dp</dimen>
+    <!-- Subtexto La comuna gana-->
+    <dimen name="texto_comuna_espladoizquierdo7">92dp</dimen>
+    <dimen name="texto_comuna_espladoarriba7">198dp</dimen>
+    <dimen name="tamaño_texto_comuna7">42sp</dimen>
+    <dimen name="texto_comuna_elevacion7">6dp</dimen>
+    <!-- Boton Inicio Sesión -->
+    <dimen name="boton_iniciosesion_espacioarriba7">282dp</dimen>
+    <!-- Linearlayout Registro-->
+    <dimen name="linearlayout_registro_paddingtopbottom7">16dp</dimen>
+    <dimen name="espacio_lado_izquierdo_registro7">5dp</dimen>
+    <dimen name="mensaje_registro7">28sp</dimen>
+
+    <!-- Dialogo Inconrrecto - Valor 720dp-->
+    <!-- Tarjeta -->
+    <dimen name="translationz">5dp</dimen>
+    <dimen name="cardCornerRadius">9dp</dimen>
+    <dimen name="elevation">5dp</dimen>
+    <!-- LinearLayoutPrincipal -->
+    <dimen name="paddingBottom">14dp</dimen>
+    <dimen name="paddingStart">12dp</dimen>
+    <dimen name="paddingEnd">14dp</dimen>
+    <dimen name="paddingTop">14dp</dimen>
+    <!-- Texto Principal -->
+    <dimen name="layout_marginStart">28dp</dimen>
+    <dimen name="layout_marginEnd">28dp</dimen>
+    <dimen name="layout_marginTop">34dp</dimen>
+    <dimen name="paddingStart2">10dp</dimen>
+    <dimen name="paddingEnd2">10dp</dimen>
+    <dimen name="tamano_letra7s">34sp</dimen>
+    <!-- Boton Principal -->
+    <dimen name="layout_marginBottom7s">54dp</dimen>
+    <dimen name="layout_marginTop7s">134dp</dimen>
+
+    <!-- Pantalla Login - Valor 720dp-->
+    <!-- Mensaje Hola-->
+    <dimen name="paddinghola7">24dp</dimen>
+    <dimen name="tamano_hola7">78sp</dimen>
+    <!-- TextBox Usuarios  -->
+    <dimen name="padding_izquierdo7">155dp</dimen>
+    <dimen name="padding_derecho7">85dp</dimen>
+    <dimen name="tamano_letra7">36sp</dimen>
+    <!-- TextBox Clave  -->
+    <dimen name="espacio_arriba_clave">-60dp</dimen>
+    <!-- Switch Recordar Sesión  -->
+    <dimen name="margen_izquierdo7">78dp</dimen>
+    <dimen name="margen_derecho7">78dp</dimen>
+    <dimen name="tamano_letra_sw7">24sp</dimen>
+    <!-- Boton Recup. Clave -->
+    <dimen name="tamano_letra_b7">30sp</dimen>
+    <!-- Linear Layout Recup. Clave  -->
+    <dimen name="espacio_arriba_linearlayout7">108dp</dimen>
+    <!-- Texto y Boton Registro -->
+    <dimen name="tamano_letra_tb7">28sp</dimen>
+    <dimen name="espacio_arriba_tb">8dp</dimen>
+    <!-- Botton Llamada -->
+    <dimen name="tamano_letra_bl7">28sp</dimen>
+    <dimen name="espacio_abajo_bl7">14dp</dimen>
+    <dimen name="margen_izquierdobl7">34dp</dimen>
+    <dimen name="margen_derechobl7">34dp</dimen>
+    <dimen name="tamano_boton7">88dp</dimen>
+
+    <!-- Pantalla Registro - Valor 720dp-->
+    <!-- Mensaje Registro-->
+    <dimen name="paddingregistro7">12dp</dimen>
+    <dimen name="tamano_registro7">78sp</dimen>
+    <!-- Tamano Textbox Dia Mes Año-->
+    <dimen name="tamano_ancho7">280dp</dimen>
+
+    <!-- Item Lista - Valor 720dp-->
+    <dimen name="tamano_letradp7">38dp</dimen>
+    <dimen name="espacio_arriba17">78dp</dimen>
+    <dimen name="espacio_arriba27">148dp</dimen>
+    <dimen name="espacio_arriba37">218dp</dimen>
+    <dimen name="espacio_arriba47">284dp</dimen>
+
+    <!-- Pantalla Alerta - Valor 720dp-->
+    <dimen name="padin_startaler7">175dp</dimen>
+    <dimen name="padin_endaler7">95dp</dimen>
+    <dimen name="tamano_letra72">44sp</dimen>
+
+</resources>

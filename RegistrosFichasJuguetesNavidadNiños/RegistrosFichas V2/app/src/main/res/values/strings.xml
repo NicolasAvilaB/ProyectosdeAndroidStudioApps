@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Registro Juguetes</string>
+    <string name="digite_rut_o_nombre">Digite Rut o Nombre...</string>
+    <string name="button">Button</string>
+    <string name="buscador">BUSCADOR</string>
+    <string name="buscar">Buscar</string>
+</resources>

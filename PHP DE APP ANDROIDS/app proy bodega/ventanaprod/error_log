@@ -1,0 +1,20 @@
+[24-Nov-2017 00:34:41 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/functions1.php on line 36
+[24-Nov-2017 00:34:41 UTC] PHP Stack trace:
+[24-Nov-2017 00:34:41 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/generarid.php:0
+[24-Nov-2017 00:34:41 UTC] PHP   2. getSQLResultSet() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/generarid.php:3
+[24-Nov-2017 00:34:41 UTC] PHP   3. mysqli->__construct() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/functions1.php:36
+[24-Nov-2017 00:46:27 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/functions1.php on line 36
+[24-Nov-2017 00:46:27 UTC] PHP Stack trace:
+[24-Nov-2017 00:46:27 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/generarid.php:0
+[24-Nov-2017 00:46:27 UTC] PHP   2. getSQLResultSet() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/generarid.php:3
+[24-Nov-2017 00:46:27 UTC] PHP   3. mysqli->__construct() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/functions1.php:36
+[24-Nov-2017 01:08:06 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/functions1.php on line 36
+[24-Nov-2017 01:08:06 UTC] PHP Stack trace:
+[24-Nov-2017 01:08:06 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/generarid.php:0
+[24-Nov-2017 01:08:06 UTC] PHP   2. getSQLResultSet() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/generarid.php:3
+[24-Nov-2017 01:08:06 UTC] PHP   3. mysqli->__construct() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/functions1.php:36
+[24-Nov-2017 01:09:42 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/functions1.php on line 36
+[24-Nov-2017 01:09:42 UTC] PHP Stack trace:
+[24-Nov-2017 01:09:42 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/generarid.php:0
+[24-Nov-2017 01:09:42 UTC] PHP   2. getSQLResultSet() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/generarid.php:3
+[24-Nov-2017 01:09:42 UTC] PHP   3. mysqli->__construct() /home/cre37351/public_html/AplicacionProyBodega/ventanaprod/functions1.php:36

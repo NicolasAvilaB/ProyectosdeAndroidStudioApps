@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Control Riego Automatico</string>
+    <string name="title_activity_dht11">DHT11</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="appwidget_text">Sensor DHT11</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#253A4B</color>
+    <color name="colorPrimaryDark">#253A4B</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="splashscreen">#253A4B</color>
+    <color name="white">#f8f8f8</color>
+    <color name="plomoblanco">#D1D1D1</color>
+    <color name="plomo">#929292</color>
+    <color name="blancopuro">#ffffff</color>
+    <color name="color_lista_mes_dia">#ffffff</color>
+    <color name="whitehint">#C7C7C7</color>
+    <color name="facebook">#3B5998</color>
+    <color name="textview">#323232</color>
+    <color name="transparente">#00000000</color>
+    <color name="colorBarraDesplazable">#FF9800</color>
+    <color name="coloradmin">#ffd868</color>
+    <color name="colordaf">#f64b3c</color>
+    <color name="colordideco">#7fa998</color>
+    <color name="colordom">#de6b35</color>
+    <color name="colorsecplac">#FF9800</color>
+    <color name="colorsecr">#c70039</color>
+    <color name="colortransito">#900c3f</color>
+    <color name="colorentas">#511845</color>
+    <color name="separatorColor">#FFC107</color>
+    <color name="Color_Medio_BlancoAzul">#ECEDFF</color>
+    <color name="color_consulta">#6e4b1f</color>
+    <color name="color_text">#533710</color>
+</resources>

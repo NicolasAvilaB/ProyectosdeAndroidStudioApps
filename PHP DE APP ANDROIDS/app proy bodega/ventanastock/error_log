@@ -1,0 +1,36 @@
+[24-Nov-2017 01:57:53 UTC] PHP Notice:  Undefined index: codigo in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 3
+[24-Nov-2017 01:57:53 UTC] PHP Stack trace:
+[24-Nov-2017 01:57:53 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:57:53 UTC] PHP Notice:  Undefined index: nombre in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 4
+[24-Nov-2017 01:57:53 UTC] PHP Stack trace:
+[24-Nov-2017 01:57:53 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:57:53 UTC] PHP Notice:  Undefined index: marca in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 5
+[24-Nov-2017 01:57:53 UTC] PHP Stack trace:
+[24-Nov-2017 01:57:53 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:57:53 UTC] PHP Notice:  Undefined index: td in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 6
+[24-Nov-2017 01:57:53 UTC] PHP Stack trace:
+[24-Nov-2017 01:57:53 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:57:53 UTC] PHP Notice:  Undefined index: nd in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 7
+[24-Nov-2017 01:57:53 UTC] PHP Stack trace:
+[24-Nov-2017 01:57:53 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:57:53 UTC] PHP Notice:  Undefined index: cant in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 8
+[24-Nov-2017 01:57:53 UTC] PHP Stack trace:
+[24-Nov-2017 01:57:53 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:59:00 UTC] PHP Notice:  Undefined index: codigo in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 3
+[24-Nov-2017 01:59:00 UTC] PHP Stack trace:
+[24-Nov-2017 01:59:00 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:59:00 UTC] PHP Notice:  Undefined index: nombre in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 4
+[24-Nov-2017 01:59:00 UTC] PHP Stack trace:
+[24-Nov-2017 01:59:00 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:59:00 UTC] PHP Notice:  Undefined index: marca in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 5
+[24-Nov-2017 01:59:00 UTC] PHP Stack trace:
+[24-Nov-2017 01:59:00 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:59:00 UTC] PHP Notice:  Undefined index: td in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 6
+[24-Nov-2017 01:59:00 UTC] PHP Stack trace:
+[24-Nov-2017 01:59:00 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:59:00 UTC] PHP Notice:  Undefined index: nd in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 7
+[24-Nov-2017 01:59:00 UTC] PHP Stack trace:
+[24-Nov-2017 01:59:00 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0
+[24-Nov-2017 01:59:00 UTC] PHP Notice:  Undefined index: cant in /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php on line 8
+[24-Nov-2017 01:59:00 UTC] PHP Stack trace:
+[24-Nov-2017 01:59:00 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionProyBodega/ventanastock/registrarhistorialstock.php:0

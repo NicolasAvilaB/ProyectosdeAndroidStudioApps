@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.software.nicolas.ProyBodega.manbodega"
+    tools:showIn="@layout/app_bar_manbodega"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="REGISTROS HISTORIAL EGRESOS"
+        android:textAlignment="center"
+        android:textColor="#724213"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/listaegreso"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_weight="0.21" />
+
+    <EditText
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="-1dp"
+        android:ems="10"
+        android:hint="Buscar Usuario Egreso..."
+        android:inputType="textPersonName" />
+</LinearLayout>

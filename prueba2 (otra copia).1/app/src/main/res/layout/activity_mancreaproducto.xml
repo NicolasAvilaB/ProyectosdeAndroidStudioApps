@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.software.nicolas.ProyBodega.mancreaproducto">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="CREACION DE PRODUCTOS"
+        android:textAlignment="center"
+        android:textColor="#724213"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:text="ID:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-26dp"
+        android:enabled="true"
+        android:text="........."
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese Codigo..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/nuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-48dp"
+        android:onClick="clicknuevo"
+        android:text="Nuevo" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese Nombre..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-43dp"
+        android:onClick="clickeliminar"
+        android:text="Eliminar" />
+
+    <EditText
+        android:id="@+id/marca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese Marca..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-37dp"
+        android:onClick="clickmodificar"
+        android:text="Modificar" />
+
+    <Button
+        android:id="@+id/regreso"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:onClick="clickmodificar"
+        android:text="Volver" />
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-48dp"
+        android:enabled="false"
+        android:onClick="clickcancelar"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-49dp"
+        android:enabled="false"
+        android:onClick="clickguardar"
+        android:text="Guardar" />
+
+    <ListView
+        android:id="@+id/listar"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="-1dp"
+        android:ems="10"
+        android:hint="Buscar Nombre Producto..."
+        android:inputType="textPersonName" />
+
+</LinearLayout>

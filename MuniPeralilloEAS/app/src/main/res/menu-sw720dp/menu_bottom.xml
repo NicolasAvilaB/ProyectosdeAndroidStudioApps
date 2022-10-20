@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Noticias"
+        android:icon="@drawable/home"
+        android:title="@string/ayuda_social"
+        app:exb_color="#3c70a4" />
+    <!-- app:cnb_textColor="#FFF" -->
+    <!-- app:cnb_backgroundColor="#2196F3"-->
+
+    <item
+        android:id="@+id/Perfil"
+        android:icon="@drawable/cuenta"
+        android:title="@string/perfil"
+        app:exb_color="#857878" />
+</menu>

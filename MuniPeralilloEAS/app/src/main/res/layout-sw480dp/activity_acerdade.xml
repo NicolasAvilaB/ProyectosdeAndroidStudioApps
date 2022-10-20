@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Color_Medio_BlancoAzul"
+    android:layout_height="match_parent"
+    tools:context=".acerdade">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="1dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_volver"
+            android:textColor="@color/white"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:requiresFadingEdge="vertical"
+            android:elevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/release_1_0"
+                    android:padding="14dp"
+                    android:textColor="#515151"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/interfaz_usuario"
+                    android:padding="2dp"
+                    android:textColor="#595959"
+                    android:textSize="24sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/registro_covid19"
+                    android:padding="2dp"
+                    android:textColor="#595959"
+                    android:textSize="24sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/registro_alertas"
+                    android:padding="2dp"
+                    android:textColor="#595959"
+                    android:textSize="24sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/perfil_per"
+                    android:padding="2dp"
+                    android:textColor="#595959"
+                    android:textSize="24sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/secci_n_noticias"
+                    android:padding="2dp"
+                    android:textColor="#595959"
+                    android:textSize="24sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="@string/nueva_interfaz_usuario"
+                    android:padding="2dp"
+                    android:textColor="#595959"
+                    android:textSize="24sp"
+                    />
+
+                <TextView
+                    android:id="@+id/inform"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="40sp"
+                    android:gravity="center"
+                    android:text="@string/copyright_2020_departamento_inform_tica_muniperalillo"
+                    android:textColor="@color/Color_Medio_BlancoAzul"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+                <TextView
+                    android:id="@+id/nab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="20sp"
+                    android:gravity="center"
+                    android:text="@string/copyright_2020_dise_ado_por_n_a_b_para_muniperalillo"
+                    android:textColor="@color/Color_Medio_BlancoAzul"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

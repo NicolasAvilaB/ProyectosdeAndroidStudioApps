@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Contagiados por Pais"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textColor="#57b82a"
+        android:padding="14dp"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/buscador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_caja"
+        android:ems="10"
+        android:layout_marginRight="13dp"
+        android:layout_marginLeft="10dp"
+        android:padding="12dp"
+        android:inputType="textPersonName"
+        android:hint="Buscar País..." />
+
+        <RelativeLayout
+            android:id="@+id/pantalla"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f7f7f7"
+            tools:context=".ui.country.CountryFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCovidCountry"
+            android:layout_marginTop="15dp"
+            tools:listitem="@layout/item_list_covid_country"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ProgressBar
+            android:id="@+id/progress_circular_country"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progress"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+ext {
+    supportLibVersion = '27.0.2'
+}
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.0'
+
+    dataBinding {
+        enabled = true
+    }
+    defaultConfig {
+        applicationId "tk.zielony.carbonsamples"
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        renderscriptTargetApi 20
+        renderscriptSupportModeEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    kapt 'com.android.databinding:compiler:3.0.1'
+    implementation project(':carbon')
+    implementation project(':rxcarbon')
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.annimon:stream:1.1.9'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    implementation "com.android.support:recyclerview-v7:$supportLibVersion"
+    implementation "com.android.support:cardview-v7:$supportLibVersion"
+    implementation "com.android.support:design:$supportLibVersion"
+    implementation 'com.github.ZieIony:randomdata:db21077582'
+    compileOnly 'com.github.ZieIony.RandomData:person:db21077582'
+    implementation 'com.github.ZieIony:LandscapeView:94187526bb'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+}

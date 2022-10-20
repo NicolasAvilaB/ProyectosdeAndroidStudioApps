@@ -1,0 +1,337 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:id="@+id/refresco_datos"
+    tools:context="administracion.admin.com.riego.Suelo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ID1"
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary"
+                app:errorEnabled="true"
+                android:textCursorDrawable="@color/colorPrimary"
+                app:hintTextAppearance="@style/FloatingLabel">
+
+                <EditText
+                    android:id="@+id/ID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Digite ID..."
+                    android:inputType="textPersonName"
+                    android:labelFor="@+id/id"
+                    android:textColor="#4e7400"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textStyle="normal"
+                    android:theme="@style/EditText" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TIPOSUELO1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary"
+                app:errorEnabled="true"
+                android:textCursorDrawable="@color/colorPrimary"
+                app:hintTextAppearance="@style/FloatingLabel">
+
+                <EditText
+                    android:id="@+id/TIPOSUELO"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Digite Tipo Suelo...*"
+                    android:maxLength="45"
+                    android:inputType="textPersonName"
+                    android:labelFor="@+id/nombre"
+                    android:textColor="#4e7400"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textStyle="normal"
+                    android:theme="@style/EditText" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ESTADOSUELO1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary"
+                app:errorEnabled="true"
+                android:textCursorDrawable="@color/colorPrimary"
+                app:hintTextAppearance="@style/FloatingLabel">
+
+                <EditText
+                    android:id="@+id/ESTADOSUELO"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Digite Estado Suelo...*"
+                    android:maxLength="45"
+                    android:inputType="textPersonName"
+                    android:labelFor="@+id/clave"
+                    android:textColor="#4e7400"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textStyle="normal"
+                    android:theme="@style/EditText" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ABONO1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary"
+                app:errorEnabled="true"
+                android:textCursorDrawable="@color/colorPrimary"
+                app:hintTextAppearance="@style/FloatingLabel">
+
+                <EditText
+                    android:id="@+id/ABONO"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Digite Abono...(Opcional)"
+                    android:maxLength="45"
+                    android:inputType="textPersonName"
+                    android:labelFor="@+id/clave"
+                    android:textColor="#4e7400"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textStyle="normal"
+                    android:theme="@style/EditText" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TIPOCULTIVO1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary"
+                app:errorEnabled="true"
+                android:textCursorDrawable="@color/colorPrimary"
+                app:hintTextAppearance="@style/FloatingLabel">
+
+                <EditText
+                    android:id="@+id/TIPOCULTIVO"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Digite Tipo Cultivo...*"
+                    android:maxLength="45"
+                    android:inputType="textPersonName"
+                    android:labelFor="@+id/email"
+                    android:textColor="#4e7400"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textStyle="normal"
+                    android:theme="@style/EditText" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/INVERNADERO1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary"
+                app:errorEnabled="true"
+                android:textCursorDrawable="@color/colorPrimary"
+                app:hintTextAppearance="@style/FloatingLabel">
+
+                <EditText
+                    android:id="@+id/INVERNADERO"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="Digite Invernadero..."
+                    android:maxLength="45"
+                    android:inputType="textPersonName"
+                    android:labelFor="@+id/tipoestado"
+                    android:textColor="#4e7400"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textStyle="normal"
+                    android:theme="@style/EditText" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/nuevo"
+                android:layout_width="103dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton_redondeado"
+                android:clickable="true"
+                android:text="Nuevo"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/modificar"
+                android:layout_width="123dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="-42dp"
+                android:background="@drawable/boton_redondeado"
+                android:clickable="true"
+                android:text="Modificar"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/eliminar"
+                android:layout_width="113dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-43dp"
+                android:background="@drawable/boton_redondeado"
+                android:clickable="true"
+                android:text="Eliminar"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/guardar"
+                android:layout_width="113dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton_redondeado"
+                android:clickable="true"
+                android:enabled="false"
+                android:text="Guardar"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/cancelar"
+                android:layout_width="113dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-42dp"
+                android:background="@drawable/boton_redondeado"
+                android:clickable="true"
+                android:enabled="false"
+                android:text="Cancelar"
+                android:textColor="@android:color/background_light" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/BUSCAR1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textColorLink="@color/colorPrimary"
+                app:errorEnabled="true"
+                android:textCursorDrawable="@color/colorPrimary"
+                app:hintTextAppearance="@style/FloatingLabel">
+
+                <EditText
+                    android:id="@+id/BUSCAR"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:ems="10"
+                    android:hint="Digite Dato a Buscar..."
+                    android:inputType="textPersonName"
+                    android:labelFor="@+id/buscar"
+                    android:textColor="#4e7400"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textStyle="normal"
+                    android:theme="@style/EditText" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/busqueda"
+                android:layout_width="113dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-42dp"
+                android:background="@drawable/boton_redondeado"
+                android:clickable="true"
+                android:text="Buscar"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Registros de Datos"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclersuelo"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="vertical">
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicolas.prueba2.org.example.nicolas.prueba2.manusuario"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="REGISTROS DE USUARIOS"
+        android:textAlignment="center"
+        android:textColor="#724213"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/listausuarios"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_weight="0.91" />
+
+    <EditText
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="-1dp"
+        android:layout_weight="0.00"
+        android:ems="10"
+        android:hint="Buscar Usuarios Registrados..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:onClick="volveralapantallaanterior"
+        android:text="VOLVER" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+
+    tools:context="juguetes.registros.com.registrojuguetes.bu">
+
+    <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="511dp"
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>   -->
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_nombre"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+
+        android:textCursorDrawable="@android:color/white"
+        app:hintTextAppearance="@style/FloatingLabel"
+        android:textColorHint="@android:color/white"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/buscador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="14"
+            android:hint="Digita Nombre o Rut..."
+            android:inputType="textPersonName"
+            android:labelFor="@+id/buscador"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            android:theme="@style/EditText"
+
+            android:textColorLink="@android:color/background_light"
+            android:textSize="24sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#405589"
+        android:text="@string/buscar"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+       />
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.rest.software.examenrestaurante.Login"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text='RESTAURANT "LA PICADA DE YEPETO"'
+        android:textAlignment="center"
+        android:textColor="#006401"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        app:srcCompat="@drawable/ic_launcher" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="Ingrese Nombre Garzon..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/clave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="Ingrese Contraseña..."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:text="Salir" />
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-49dp"
+        android:enabled="true"
+        android:text="Ingresar" />
+
+</LinearLayout>

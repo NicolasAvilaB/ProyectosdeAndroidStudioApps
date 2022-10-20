@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fitsSystemWindows="true"
+                            android:orientation="vertical"
+                            app:carbon_insetColor="?attr/colorPrimary">
+
+    <include layout="@layout/view_debugtoolbar"/>
+
+    <carbon.widget.ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <carbon.widget.LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <carbon.widget.InputLayout
+                style="@style/carbon_InputLayout.Box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                app:carbon_actionButton="voiceInput"
+                app:carbon_label="Weight"
+                app:carbon_labelStyle="floating"
+                app:carbon_minCharacters="3">
+
+                <carbon.widget.rx.EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:tag="enable"
+                    android:text="hello text"
+                    app:carbon_required="true"
+                    app:carbon_suffix="kg"/>
+            </carbon.widget.InputLayout>
+
+            <carbon.widget.InputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                android:gravity="right"
+                app:carbon_actionButton="clear"
+                app:carbon_errorMessage="it's not an email"
+                app:carbon_errorMode="whenInvalid"
+                app:carbon_label="email"
+                app:carbon_labelStyle="persistent">
+
+                <carbon.widget.EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="your email"
+                    android:maxLines="1"
+                    android:tag="enable"
+                    android:text="email@gmail.com"
+                    app:carbon_minCharacters="3"
+                    app:carbon_pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}$"/>
+            </carbon.widget.InputLayout>
+
+            <carbon.widget.InputLayout
+                style="@style/carbon_InputLayout.Stroke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                app:carbon_actionButton="showPassword"
+                app:carbon_label="password"
+                app:carbon_labelStyle="floating">
+
+                <carbon.widget.EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:inputType="numberPassword"
+                    android:tag="enable"
+                    app:carbon_maxCharacters="10"
+                    app:carbon_minCharacters="3"/>
+            </carbon.widget.InputLayout>
+
+            <carbon.widget.InputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/carbon_padding"
+                app:carbon_label="Amount"
+                app:carbon_labelStyle="ifNotEmpty">
+
+                <carbon.widget.EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:tag="enable"
+                    android:text="20"
+                    app:carbon_prefix="$"/>
+            </carbon.widget.InputLayout>
+
+        </carbon.widget.LinearLayout>
+    </carbon.widget.ScrollView>
+</carbon.widget.LinearLayout>

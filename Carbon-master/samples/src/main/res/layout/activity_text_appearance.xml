@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fitsSystemWindows="true"
+                            android:orientation="vertical"
+                            app:carbon_insetColor="?attr/colorPrimary">
+
+    <include layout="@layout/view_debugtoolbar"/>
+
+    <carbon.widget.TextView
+        android:id="@+id/headline"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/carbon_toolbarHeight"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingLeft="@dimen/carbon_padding"
+        android:paddingRight="@dimen/carbon_padding"
+        android:text="Headline"
+        android:textAppearance="?attr/carbon_textAppearanceHeadline"/>
+
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/carbon_toolbarHeight"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/carbon_padding"
+        android:paddingRight="@dimen/carbon_padding"
+        android:text="Title"
+        android:textAppearance="?attr/carbon_textAppearanceTitle"/>
+
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/carbon_toolbarHeight"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/carbon_padding"
+        android:paddingRight="@dimen/carbon_padding"
+        android:text="Subhead"
+        android:textAppearance="?attr/carbon_textAppearanceSubhead"/>
+
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/carbon_toolbarHeight"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/carbon_padding"
+        android:paddingRight="@dimen/carbon_padding"
+        android:text="Body 2"
+        android:textAppearance="?attr/carbon_textAppearanceBody2"/>
+
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/carbon_toolbarHeight"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/carbon_padding"
+        android:paddingRight="@dimen/carbon_padding"
+        android:text="Body 1"
+        android:textAppearance="?attr/carbon_textAppearanceBody1"/>
+
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/carbon_toolbarHeight"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/carbon_padding"
+        android:paddingRight="@dimen/carbon_padding"
+        android:text="Caption"
+        android:textAppearance="?attr/carbon_textAppearanceCaption"/>
+
+    <carbon.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/carbon_toolbarHeight"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/carbon_padding"
+        android:paddingRight="@dimen/carbon_padding"
+        android:text="Button"
+        android:textAppearance="?attr/carbon_textAppearanceButton"/>
+
+</carbon.widget.LinearLayout>

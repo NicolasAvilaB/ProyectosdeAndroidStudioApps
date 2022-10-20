@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Planes_Riego">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/pl"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Planes de Riego"
+                android:textAlignment="center"
+                android:textColor="#5EADEB"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tarjeta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@android:color/background_light"
+                android:fadingEdge="vertical"
+                android:orientation="vertical"
+                android:translationZ="5dp"
+                card_view:cardCornerRadius="5dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5EADEB"
+                    android:orientation="vertical"
+                    android:paddingBottom="14dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="14dp"
+                    android:paddingTop="14dp">
+
+                    <TextView
+                        android:id="@+id/I2"
+                        android:layout_width="236dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/TIPOPLAN2"
+                        android:layout_width="236dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/TIPOCULTIVO2"
+                        android:layout_width="236dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/HORA2"
+                        android:layout_width="236dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/FECHA2"
+                        android:layout_width="236dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/TIEMPO2"
+                        android:layout_width="236dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="107dp"
+                        android:layout_marginLeft="240dp"
+                        android:layout_marginTop="-136dp"
+                        card_view:srcCompat="@drawable/riego" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/sua"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Suelo"
+                android:textAlignment="center"
+                android:textColor="#73ACB0"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recy5"
+                android:layout_width="match_parent"
+                android:layout_height="227dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="vertical">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/volver"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton_redondeado"
+                android:clickable="true"
+                android:text="Volver"
+                android:textColor="@android:color/background_light"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/aceptarplan"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+
+                android:layout_marginTop="-49dp"
+                android:background="@drawable/boton_redondeado"
+                android:clickable="true"
+                android:text="Aceptar"
+                android:textColor="@android:color/background_light"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

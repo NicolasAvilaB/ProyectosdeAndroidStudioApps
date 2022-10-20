@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Splashscreen">
+
+
+    <ImageView
+        android:id="@+id/m1"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        app:srcCompat="@drawable/logomuni" />
+
+    <TextView
+        android:id="@+id/m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="MUNICIPALIDAD DE PERALILLO"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright © 2018 | Diseñado por Informática Muniperalillo"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

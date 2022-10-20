@@ -1,0 +1,8 @@
+<?php
+include('functions.php'); 
+if ($resultset = getSQLResultSet("Call Grilla_Validador_Stock")) {
+    	while ($row = $resultset->fetch_array(MYSQLI_NUM)) {
+    	echo json_encode($row);
+    	}	
+   }
+?>

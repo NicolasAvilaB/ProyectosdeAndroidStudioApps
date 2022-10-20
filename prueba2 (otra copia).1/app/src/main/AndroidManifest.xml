@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.software.nicolas.ProyBodega">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ProyBodega"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mysql">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menu" />
+        <activity android:name=".manusuario" />
+        <activity android:name=".manadmin" />
+        <activity
+            android:name=".manbodega"
+            android:label="@string/title_activity_manbodega"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".manhistorialingresos" />
+        <activity android:name=".maniniciosesion" />
+        <activity android:name=".mancierresesion" />
+        <activity android:name=".mancreaproducto" />
+        <activity android:name=".mancreastock" />
+        <activity android:name=".manalmacenstock"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#676767"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="@string/title_home"
+        app:cnb_iconColor="#2196F3"/>
+
+    <item
+        android:id="@+id/navigation_country"
+        android:icon="@drawable/mundo"
+        android:title="@string/title_country"
+        app:cnb_iconColor="#57b82a"/>
+
+</menu>

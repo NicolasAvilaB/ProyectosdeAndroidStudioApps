@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/notif"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/clima"
+            android:title="Clima Actual" />
+        <item
+            android:id="@+id/planesriego"
+            android:title="Plan de Riego" />
+        <item
+            android:id="@+id/suelo"
+            android:title="Suelo" />
+        <item
+            android:id="@+id/salir"
+            android:title="Salir" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/clover"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:scaleType="fitXY"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/fondoalerta"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="1dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="@string/alertas"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:requiresFadingEdge="vertical"
+        android:elevation="1dp">
+
+    <LinearLayout
+        android:id="@+id/contenido_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="32sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="36sp"
+                android:gravity="center"
+                android:text="@string/seleccionar_alerta"
+                android:textColor="@color/blancopuro"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/rut0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/campo_descripcion"
+            android:ems="10"
+            android:hint="@string/ingrese_rut"
+            android:inputType="number"
+            android:paddingStart="88dp"
+            android:paddingEnd="30dp"
+            android:textColor="@color/blancopuro"
+            android:textColorHint="#E7E7E7" />
+
+            <EditText
+                android:id="@+id/descr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-30dp"
+                android:background="@drawable/campo_descripcion"
+                android:ems="10"
+                android:hint="@string/ingrese_nom"
+                android:inputType="textPersonName"
+                android:paddingStart="88dp"
+                android:paddingEnd="30dp"
+                android:textColor="@color/blancopuro"
+                android:textColorHint="#E7E7E7" />
+
+            <AutoCompleteTextView
+                android:id="@+id/sector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:background="@drawable/campo_sector"
+                android:ems="10"
+                android:hint="@string/ingrese_sector"
+                android:inputType="textPersonName"
+                android:paddingStart="88sp"
+                android:layout_gravity="center"
+                android:paddingEnd="30sp"
+                android:textColor="@color/blancopuro"
+                android:textColorHint="#E7E7E7" />
+
+        <Spinner
+            android:id="@+id/buscador_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/spinner_alertas"
+            android:dropDownWidth="wrap_content"
+            android:dropDownSelector="#7AAEAE"
+            android:popupBackground="#418071"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="38dp"
+            android:paddingEnd="30dp"
+            android:textColor="@color/blancopuro" />
+
+            <Button
+                android:id="@+id/enviar_informacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="35sp"
+                android:layout_marginEnd="35sp"
+                android:background="@drawable/boton_alerta"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cnb_unselectedColor="#676767"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Inicio"
+        app:cnb_iconColor="#2196F3"/>
+        <!-- app:cnb_textColor="#FFF" -->
+        <!-- app:cnb_backgroundColor="#2196F3"-->
+
+    <item
+        android:id="@+id/person"
+        android:icon="@drawable/person"
+        android:title="Cuenta"
+        app:cnb_iconColor="#Ab7282"
+        />
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/menu"
+        android:title="Menu"
+        app:cnb_iconColor="#673AB7"
+        />
+
+    <item
+        android:id="@+id/data"
+        android:icon="@drawable/datos"
+        android:title="Datos"
+        app:cnb_iconColor="#57b82a"
+        />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="Buscador"
+        app:cnb_iconColor="#05b8b4"
+        />
+</menu>

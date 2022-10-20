@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.nicolas.prueba2.org.example.nicolas.prueba2.manadmin">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="-2dp"
+        android:fontFamily="sans-serif"
+        android:text="REGISTROS ADMINISTRADORES"
+        android:textAlignment="center"
+        android:textColor="#724213"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="33dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:text="ID:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/nuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-28dp"
+        android:onClick="clicknuevo"
+        android:text="Nuevo" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-46dp"
+        android:enabled="true"
+        android:text="........."
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nombre_alias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese su Alias..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-38dp"
+        android:onClick="clickeliminar"
+        android:text="Eliminar" />
+
+    <EditText
+        android:id="@+id/clave_acceso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese su Clave..."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/modificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-39dp"
+        android:onClick="clickmodificar"
+        android:text="Modificar" />
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:onClick="volveralapantallaanterior"
+        android:text="VOLVER" />
+
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-49dp"
+        android:enabled="false"
+        android:onClick="clickguardar"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-48dp"
+        android:enabled="false"
+        android:onClick="clickcancelar"
+        android:text="Cancelar" />
+
+    <ListView
+        android:id="@+id/listaadmins"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="-1dp"
+        android:ems="10"
+        android:hint="Buscar Alias..."
+        android:inputType="textPersonName" />
+
+</LinearLayout>

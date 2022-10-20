@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuu"
+            android:title="Menu" />
+        <item
+            android:id="@+id/planesriego"
+            android:title="Plan de Riego" />
+        <item
+            android:id="@+id/suelo"
+            android:title="Suelo" />
+        <item
+            android:id="@+id/us"
+            android:title="Usuarios" />
+        <item
+            android:id="@+id/cu"
+            android:title="Cultivos y Notificaciones" />
+        <item
+            android:id="@+id/in"
+            android:title="Invernaderos" />
+        <item
+            android:id="@+id/h1"
+            android:title="Historial Riego" />
+        <item
+            android:id="@+id/h2"
+            android:title="Historial Suelo" />
+        <item
+            android:id="@+id/h3"
+            android:title="Historial Clima" />
+        <item
+            android:id="@+id/h4"
+            android:title="Historial Sesion" />
+        <item
+            android:id="@+id/salir"
+            android:title="Salir" />
+    </group>
+
+
+
+</menu>

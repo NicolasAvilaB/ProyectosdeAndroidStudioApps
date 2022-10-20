@@ -1,0 +1,11 @@
+<?php include ('functions.php');
+$id=trim($_POST['id']);
+$alias=trim($_POST['alias']);
+$clave=trim($_POST['clave']);
+ejecutarSQLCommand("Call Ingreso_Alias('$id','$alias','$clave')");
+if ($resultset = getSQLResultSet("Call Grilla_Acceso")) {
+    	while ($row = $resultset->fetch_array(MYSQLI_NUM)) {
+    	echo json_encode($row);
+    	}	
+   }
+ ?>

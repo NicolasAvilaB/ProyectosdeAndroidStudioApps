@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.software.nicolas.ProyBodega.mancreastock"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:text="CREACION DE STOCK"
+        android:textAlignment="center"
+        android:textColor="#724213"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:text="ID:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/nuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-38dp"
+        android:onClick="clicknuevo"
+        android:text="Nuevo" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-32dp"
+        android:enabled="true"
+        android:text="........."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:text="CODIGO:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-19dp"
+        android:enabled="true"
+        android:text="........."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:text="MARCA:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/marca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-10dp"
+        android:enabled="true"
+        android:text="........."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:text="PRODUCTO:"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/listarproductos"
+        android:layout_width="216dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-45dp"
+        android:enabled="false"
+        android:onClick="clickguardar"
+        android:text="Guardar" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="13dp"
+        android:text="TIPO DOCUMENTO:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-33dp"
+        android:enabled="false"
+        android:onClick="clickcancelar"
+        android:text="Cancelar" />
+
+    <Spinner
+        android:id="@+id/tipodocumento"
+        android:layout_width="216dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="-10dp" />
+
+    <Button
+        android:id="@+id/regreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-1dp"
+        android:onClick="clickmodificar"
+        android:text="Volver" />
+
+    <EditText
+        android:id="@+id/ndocumento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-7dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese N°Documento..."
+        android:inputType="textPhonetic" />
+
+    <EditText
+        android:id="@+id/cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-82dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese Cantidad..."
+        android:inputType="textPhonetic" />
+
+</LinearLayout>

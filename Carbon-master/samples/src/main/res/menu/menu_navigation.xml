@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@raw/ic_face_24px"
+            android:title="Fender"/>
+
+        <item
+            android:icon="@raw/ic_print_24px"
+            android:title="Schecter"/>
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@raw/ic_dns_24px"
+            android:title="Gibson"/>
+
+        <item
+            android:icon="@raw/ic_airplanemode_on_24px"
+            android:title="Hagström"/>
+
+        <item
+            android:icon="@raw/ic_search_24px"
+            android:title="Ibanez"/>
+    </group>
+</menu>

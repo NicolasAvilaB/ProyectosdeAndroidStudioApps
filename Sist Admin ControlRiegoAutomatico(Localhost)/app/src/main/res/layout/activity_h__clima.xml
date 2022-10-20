@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".H_Clima">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:errorEnabled="true"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        app:hintTextAppearance="@style/FloatingLabel">
+
+        <EditText
+            android:id="@+id/buscar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:ems="10"
+            android:hint="Digite Dato..."
+            android:inputType="textPersonName"
+            android:labelFor="@+id/nombre"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary"
+            android:textStyle="normal"
+            android:theme="@style/EditText" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til2"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        app:errorEnabled="true"
+        app:hintTextAppearance="@style/FloatingLabel">
+
+        <EditText
+            android:id="@+id/fecha1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Digite Fecha Origen..."
+            android:inputType="textPersonName"
+            android:labelFor="@+id/nombre"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary"
+            android:textStyle="normal"
+            android:theme="@style/EditText" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til3"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="-86dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+        app:errorEnabled="true"
+        app:hintTextAppearance="@style/FloatingLabel">
+
+        <EditText
+            android:id="@+id/fecha2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Digite Fecha Termino..."
+            android:inputType="textPersonName"
+            android:labelFor="@+id/nombre"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary"
+            android:textStyle="normal"
+            android:theme="@style/EditText" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/opcion"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        />
+
+    <Button
+        android:id="@+id/aceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boton_redondeado"
+        android:clickable="true"
+        android:text="Buscar"
+        android:textColor="@android:color/background_light" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerhclima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

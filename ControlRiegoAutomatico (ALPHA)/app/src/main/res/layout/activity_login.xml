@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:background="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/logo_android" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SISTEMA DE CONTROL RIEGO AUTOMATICO"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+
+        android:textCursorDrawable="@color/colorPrimary"
+        app:hintTextAppearance="@style/FloatingLabel">
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:ems="10"
+            android:hint="Digite su nombre..."
+            android:inputType="textPersonName"
+            android:labelFor="@+id/nombre"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary"
+            android:textStyle="normal"
+            android:theme="@style/EditText" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_clave"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary"
+
+
+        app:hintTextAppearance="@style/FloatingLabel">
+
+        <EditText
+            android:id="@+id/clave"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:ems="10"
+            android:hint="Digite su clave..."
+            android:inputType="textPersonName"
+            android:labelFor="@+id/nombre"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary"
+            android:textStyle="normal"
+            android:theme="@style/EditText" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/aceptar"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/boton_redondeado"
+        android:clickable="true"
+        android:text="Aceptar"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/salir"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="-48dp"
+        android:background="@drawable/boton_redondeado"
+        android:text="Salir"
+        android:clickable="true"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>

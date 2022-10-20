@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253A79"
+    android:orientation="vertical">
+
+    <VideoView
+        android:id="@+id/videoView3"
+        android:layout_width="wrap_content"
+        android:layout_height="1037dp"
+        android:layout_gravity="center" />
+
+
+
+              <TextView
+                  android:id="@+id/compr"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:gravity="center"
+                  android:textColor="@android:color/background_light"
+                  android:textColorLink="@android:color/background_light"
+                  android:textSize="24sp" />
+
+    <ProgressBar
+        android:id="@+id/proceso"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:progressBackgroundTint="#253A79"
+        android:progressTint="#000059" />
+
+    </LinearLayout>
+
+
+
+

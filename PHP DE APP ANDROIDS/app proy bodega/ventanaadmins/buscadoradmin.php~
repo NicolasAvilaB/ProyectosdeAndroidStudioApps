@@ -1,0 +1,14 @@
+<?php 
+include('functions1.php'); 
+$alias=$_GET['alias'];
+if ($resultset = getSQLResultSet("Call Busque_Alias('$alias')")) {
+   $datos=array();
+foreach ($resultset as $row)
+{
+$datos[]=$row;
+}
+echo json_encode($datos);
+    	
+    	
+   }
+?>

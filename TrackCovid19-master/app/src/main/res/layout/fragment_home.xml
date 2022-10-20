@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dise5"
+        style="@style/TotalFontStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#606060"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="-----------" />
+
+    <TextView
+        android:id="@+id/dise"
+        style="@style/TotalFontStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#606060"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Diseñado por Nicolás Ávila Biskupovic" />
+
+    <TextView
+        android:id="@+id/dise2"
+        style="@style/TotalFontStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#606060"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="-----------" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Coronavirus COVID-19 en el Mundo"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvLabelTotalConfirmed"
+            style="@style/LabelFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total de Contagiados"
+            android:textColor="@color/colorTotalConfirmed" />
+
+        <TextView
+            android:id="@+id/tvTotalConfirmed"
+            style="@style/TotalFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalConfirmed"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/tvLabelTotalDeaths"
+            style="@style/LabelFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total de Muertos"
+            android:textColor="@color/colorTotalDeaths" />
+
+        <TextView
+            android:id="@+id/tvTotalDeaths"
+            style="@style/TotalFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalDeaths"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/tvLabelTotalRecovered"
+            style="@style/LabelFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total de Recuperados"
+            android:textColor="@color/colorTotalRecovered" />
+
+        <TextView
+            android:id="@+id/tvTotalRecovered"
+            style="@style/TotalFontStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTotalRecovered"
+            tools:text="0" />
+
+        <Button
+            android:id="@+id/actualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_boton"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-400dp"
+        tools:context=".ui.home.HomeFragment">
+
+        <ProgressBar
+            android:id="@+id/progress_circular_home"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progress"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

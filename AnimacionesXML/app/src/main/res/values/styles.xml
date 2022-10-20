@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name ="android:windowEnterTransition">@transition/transition_enter</item>
+        <item name ="android:windowExitTransition">@transition/transition_exit</item>
+        <item name ="android:windowReenterTransition">@transition/transition_reenter</item>
+        <item name ="android:windowReturnTransition">@transition/transition_return</item>
+
+        <item name ="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name ="android:windowAllowReturnTransitionOverlap">false</item>
+
+
+    </style>
+
+</resources>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:scaleType="fitXY"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:adjustViewBounds="true"
+    android:background="@drawable/perfil"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="1dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="22dp"
+            android:adjustViewBounds="true"
+            android:elevation="1dp"
+            android:gravity="center"
+            android:text="@string/perfil"
+            android:textColor="#7A7777"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:gravity="center"
+        android:background="@drawable/tarjetaperfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ScrollView
+            android:layout_width="500dp"
+            android:layout_height="455dp"
+            android:requiresFadingEdge="vertical"
+            android:elevation="1dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:elevation="1dp">
+
+                <TextView
+                    android:id="@+id/nombre_perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:elevation="1dp"
+                    android:gravity="center"
+                    android:padding="@dimen/paddinghola7"
+                    android:text="@string/nombreperfil"
+                    android:textColor="#595959"
+                    android:textSize="28sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/rut_perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:elevation="1dp"
+                    android:gravity="center"
+                    android:padding="@dimen/paddinghola7"
+                    android:text="@string/nombreperfil"
+                    android:textSize="28sp"
+                    android:textColor="#595959"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/email_perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:elevation="1dp"
+                    android:gravity="center"
+                    android:padding="@dimen/paddinghola7"
+                    android:text="@string/nombreperfil"
+                    android:textColor="#595959"
+                    android:textSize="28sp"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/fecha_perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:elevation="1dp"
+                    android:gravity="center"
+                    android:padding="@dimen/paddinghola7"
+                    android:text="@string/nombreperfil"
+                    android:textColor="#595959"
+                    android:textSize="28sp"
+                    tools:ignore="MissingConstraints" />
+
+                <Button
+                    android:id="@+id/acerda_de"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/boton_acercade"
+                    android:clickable="false"
+                    android:elevation="1dp"
+                    android:gravity="center"
+                    android:padding="18dp"
+                    android:textColor="#26887F"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/cerrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/boton_cerrarsesion"
+                    android:clickable="false"
+                    android:elevation="1dp"
+                    android:gravity="center"
+                    android:padding="18dp"
+                    android:textColor="#7a3985"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/salir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/boton_salirapp"
+                    android:clickable="false"
+                    android:elevation="1dp"
+                    android:gravity="center"
+                    android:padding="18dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/llamada"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/llamada"
+        android:textColor="#16817A"
+        android:layout_marginBottom="@dimen/espacio_abajo_bl7"
+        android:layout_marginEnd="@dimen/margen_derechobl7"
+        android:layout_marginStart="@dimen/margen_izquierdobl7"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+[29-Nov-2017 23:41:33 UTC] PHP Notice:  Undefined index: mesa in /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php on line 10
+[29-Nov-2017 23:41:33 UTC] PHP Stack trace:
+[29-Nov-2017 23:41:33 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php:0
+[29-Nov-2017 23:53:24 UTC] PHP Notice:  Undefined index: producto in /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php on line 4
+[29-Nov-2017 23:53:24 UTC] PHP Stack trace:
+[29-Nov-2017 23:53:24 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php:0
+[29-Nov-2017 23:53:24 UTC] PHP Notice:  Undefined index: precio in /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php on line 5
+[29-Nov-2017 23:53:24 UTC] PHP Stack trace:
+[29-Nov-2017 23:53:24 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php:0
+[29-Nov-2017 23:53:24 UTC] PHP Notice:  Undefined index: cantidad in /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php on line 6
+[29-Nov-2017 23:53:24 UTC] PHP Stack trace:
+[29-Nov-2017 23:53:24 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php:0
+[29-Nov-2017 23:53:24 UTC] PHP Notice:  Undefined index: tipo in /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php on line 7
+[29-Nov-2017 23:53:24 UTC] PHP Stack trace:
+[29-Nov-2017 23:53:24 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php:0
+[29-Nov-2017 23:53:24 UTC] PHP Notice:  Undefined index: id in /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php on line 8
+[29-Nov-2017 23:53:24 UTC] PHP Stack trace:
+[29-Nov-2017 23:53:24 UTC] PHP   1. {main}() /home/cre37351/public_html/AplicacionExamen/pedidos/modificarpedido.php:0

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">chip-menu</string>
+    <string name="fragment_nombre">fragment_nombre</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carbon Samples</string>
+
+    <string name="comparisonActivity_title">Comparison</string>
+
+    <string name="textViewComparisonActivity_title">TextView</string>
+    <string name="cardViewComparisonActivity_title">CardView</string>
+
+    <string name="floatingActionMenuActivity_title">FloatingActionMenu</string>
+    <string name="tableLayoutActivity_title">TableLayout</string>
+    <string name="flowLayoutActivity_title"><![CDATA[FlowLayout & Chips]]></string>
+    <string name="toolbarActivity_title">Toolbar</string>
+    <string name="seekBarActivity_title">SeekBar</string>
+    <string name="dropDownActivityActivity_title">DropDown</string>
+    <string name="expandableRecyclerActivity_title">ExpandableRecyclerView</string>
+    <string name="expansionPanelActivity_title">ExpansionPanel</string>
+    <string name="recyclerViewActivity_title">RecyclerView</string>
+    <string name="scrollViewActivity_title">ScrollView</string>
+    <string name="tabsActivity_title">Tabs</string>
+    <string name="textFieldsActivity_title">Text fields</string>
+    <string name="autoSizeTextActivity_title">Auto size text</string>
+    <string name="svgActivity_title">SVG icons</string>
+    <string name="snackbarActivity_title">Snackbar</string>
+    <string name="progressBarsActivity_title">Progress bars</string>
+    <string name="circularProgressActivity_title">Circular progress</string>
+    <string name="buttonsActivity_title">Buttons</string>
+    <string name="checkBoxRadioActivity_title"><![CDATA[CheckBoxes & RadioButtons]]></string>
+    <string name="widgetsActivity_title">Widgets</string>
+    <string name="dialogsActivity_title">Dialogs</string>
+    <string name="featuresActivity_title">Features</string>
+    <string name="componentsActivity_title">Components</string>
+    <string name="animationsActivity_title">Animations</string>
+    <string name="librariesActivity_title">Libraries</string>
+    <string name="colorsActivity_title">Colors</string>
+    <string name="demosActivity_title">Demos</string>
+    <string name="guidelinesActivity_title">Guidelines</string>
+    <string name="toolbarsUsageActivity_title">Toolbars / Usage</string>
+    <string name="behaviorActivity_title">Behavior</string>
+    <string name="htmlActivity_title">HTML</string>
+    <string name="robotoActivity_title">Roboto</string>
+    <string name="shadowActivity_title">Shadow</string>
+    <string name="largeShadowActivity_title">Large shadow</string>
+    <string name="textappearanceActivity_title">Text appearance</string>
+    <string name="paginationActivity_title">Pagination</string>
+    <string name="zOrderActivity_title">Z order</string>
+    <string name="roundedCornersActivity_title">Rounded corners</string>
+    <string name="anchorsActivity_title">Anchors</string>
+    <string name="contextWrapperActivity_title">Context wrapper</string>
+    <string name="percentLayoutActivity_title">Percent layout</string>
+    <string name="powerMenuActivity_title">Power Menu</string>
+    <string name="searchToolbarActivity_title">Search Toolbar</string>
+    <string name="shareToolbarActivity_title">Share Toolbar</string>
+    <string name="autoCompleteActivity_title">Auto Complete</string>
+    <string name="quickReturnActivity_title">Quick Return</string>
+    <string name="calculatorActivity_title">Calculator</string>
+    <string name="picassoActivity_title">Picasso</string>
+    <string name="recyclerCardsActivity_title"><![CDATA[RecyclerView & cards]]></string>
+    <string name="navigationViewActivity_title">NavigationView</string>
+    <string name="designActivity_title">Design Support Library</string>
+    <string name="constraintLayoutActivity_title">Constraint Layout</string>
+    <string name="listRippleActivity_title">List ripple</string>
+    <string name="rippleComparisonActivity_title">Ripple comparison</string>
+    <string name="radialTransitionActivity_title">Radial transition</string>
+    <string name="textMarkerActivity_title">Text marker</string>
+    <string name="bottomBarActivity_title">BottomBar</string>
+    <string name="bottomSheetActivity_title">BottomSheet</string>
+    <string name="themeActivity_title">Theme</string>
+
+    <string name="iconTextListItemActivity_title">Icon and text list item</string>
+    <string name="avatarTextListItemActivity_title">Avatar and text list item</string>
+    <string name="imageTextSubtextDateListItemActivity_title">Image, text, subtext and date list item</string>
+    <string name="avatarTextRatingSubtextDateListItemActivity_title">Avatar, text, rating, subtext and date list item</string>
+    <string name="registerActivity_title">Registration form</string>
+
+    <string name="widgetAnimationsActivity_title">Widget animations</string>
+    <string name="imageFadeActivity_title">Image fade</string>
+    <string name="rippleActivity_title">Touch ripple</string>
+    <string name="pathAnimationActivity_title">Path animation</string>
+
+    <string name="listDialogActivity_title">List dialog</string>
+    <string name="progressDialogActivity_title">Progress dialog</string>
+    <string name="selectDialogActivity_title">Select dialog</string>
+    <string name="simpleDialogActivity_title">Simple dialog</string>
+
+    <string name="swatchTestActivity_title">Swatch test</string>
+
+    <string name="buttonsUsageActivity_title">Buttons/Usage</string>
+    <string name="menusBehaviorActivity_title">Menus/Behavior</string>
+
+    <string name="samplehtml"><![CDATA[cdata tag makes it <i>very</i> easy to add <b>formatting</b>]]></string>
+
+</resources>

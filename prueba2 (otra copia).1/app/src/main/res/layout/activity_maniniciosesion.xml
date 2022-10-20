@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.software.nicolas.ProyBodega.maniniciosesion"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.07"
+        android:fontFamily="sans-serif"
+        android:text="REGISTROS INICIO SESION"
+        android:textAlignment="center"
+        android:textColor="#724213"
+        android:textIsSelectable="false"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/listainiciosesion"
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        android:layout_weight="0.42" />
+
+    <EditText
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="-1dp"
+        android:layout_weight="0.07"
+        android:ems="10"
+        android:hint="Buscar Usuario Inicio Sesion..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/regreso"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:text="Volver" />
+</LinearLayout>

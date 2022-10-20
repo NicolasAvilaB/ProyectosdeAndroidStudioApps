@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nicolas.androidsqlite.RegistrosClientes">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registros de Clientes:"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/rut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese Rut..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese Nombre..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese Direccion..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ingrese Telefono..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/nuevo"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="Nuevo" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/modificar"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:text="Modificar" />
+
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Guardar" />
+
+    <EditText
+        android:id="@+id/buscador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="true"
+        android:hint="Ingrese dato a Buscar..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-235dp"
+        android:enabled="false"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginLeft="200dp"
+        android:text="Buscar" />
+
+</LinearLayout>
